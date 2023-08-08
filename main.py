@@ -31,8 +31,7 @@ while user_try > 0:
         print(result)
     else:
         print("Sorry, that letter is not in the word.")
-
-    user_try -= 1
+        user_try -= 1
 
     if "".join(guess) == game_word:
         print("You guessed the word!", game_word)
